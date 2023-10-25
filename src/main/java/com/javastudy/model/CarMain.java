@@ -20,13 +20,13 @@ public class CarMain {
     }
 
     private static void switchPatternMatch(Object object) {
-        String result = switch(object) {
-            case null -> "Null value received";
-            case Integer i -> "Integer value received: " + i;
-            case String s -> "String value received: " + s;
-            default -> "None of the types";
-        };
-        
-        System.out.println("Switch pattern match: " + result);
+//        String result = switch(object) {
+//            case null -> "Null value received";
+//            case Integer i -> "Integer value received: " + i;
+//            case String s -> "String value received: " + s;
+//            default -> "None of the types";
+//        };
+//        
+//        System.out.println("Switch pattern match: " + result);
     }
 }
