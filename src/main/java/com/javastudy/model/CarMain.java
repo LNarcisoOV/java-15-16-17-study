@@ -8,5 +8,9 @@ public class CarMain {
 
         System.out.println(car.toString());
         System.out.println(car.getSizeArea());
+        
+        if(car.name() instanceof String name && !name.isEmpty()) {
+            System.out.println(car.name());
+        }
     }
 }
